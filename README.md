@@ -1,4 +1,6 @@
 ### description:
+Flask API made for practice. By making this project, I learned to set up the python project, The Application Factory Pattern and lots of other things.
+
 - DB: PostgreSQL
 - python 3.8.0
 
@@ -14,7 +16,8 @@ Type: `pytest`
 6. Type `pip install -r requirements.txt` in terminal to install requirements
 7. Migrate db: `flask db migrate -m "users table"`
 8. Seed: `flask seed run` 
-9. Start server: `flask run`
+9. Generate random secret key and update `SECRET_KEY` in `.env` file
+10. Start server: `flask run`
 
 ### curl commands:
 
